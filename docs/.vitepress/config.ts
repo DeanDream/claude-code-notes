@@ -24,19 +24,21 @@ export default defineConfig({
     sidebar: {
       '/claude-code/': [
         {
-          text: 'Claude Code 基礎',
+          text: 'Claude Code',
+          collapsed: false,  // 預設展開
           items: [
             { text: '總覽', link: '/claude-code/' },
             { text: 'CLAUDE.md', link: '/claude-code/claude-md' },
             { text: 'Slash Command', link: '/claude-code/slash-command' },
             { text: 'Skill', link: '/claude-code/skill' },
-          ]
-        },
-        {
-          text: '進階主題',
-          items: [
-            { text: '三者比較', link: '/claude-code/comparison' },
-            { text: '最佳實踐', link: '/claude-code/best-practices' },
+            {
+              text: '進階主題',
+              collapsed: true,  // 預設收合
+              items: [
+                { text: '三者比較', link: '/claude-code/advanced/comparison' },
+                { text: '最佳實踐', link: '/claude-code/advanced/best-practices' },
+              ]
+            }
           ]
         }
       ]
