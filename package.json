@@ -1,0 +1,17 @@
+{
+  "name": "claude-code-notes",
+  "version": "1.0.0",
+  "description": "Claude Code 學習筆記與技術文件",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": ["claude-code", "ai", "documentation"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
