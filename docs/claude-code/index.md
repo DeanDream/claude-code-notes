@@ -53,4 +53,5 @@ Claude Code 提供三種主要的客製化機制，讓你可以根據需求調�
 - [CLAUDE.md 詳解](./claude-md)
 - [Slash Command 詳解](./slash-command)
 - [Skill 詳解](./skill)
-- [三者比較](./comparison)
+- [三者比較](./advanced/comparison)
+- [最佳實踐](./advanced/best-practices)
